@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.results-container {
+  width: 100%;
+  text-align: center;
+}
+
+.results-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.result-item {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  border: 1px solid #4fb3db;
+  border-radius: 5px;
+  background-color: #4fb3db;
+}
+
+.blue-square {
+  width: 100px;
+  height: 100px;
+  background-color: #4fb3db;
+  margin: 10px auto;
+  color: #4fb3db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none; 
+}
+
+#btnNeighbourhood, #btnWeather, #btnTimezone {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#btnNeighbourhood:hover, #btnWeather:hover, #btnTimezone:hover {
+  background-color: darkgreen;
+}
